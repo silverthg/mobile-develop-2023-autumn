@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { StyleSheet, View, Image } from "react-native";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
 import { NavigationContainer } from "@react-navigation/native";
@@ -41,12 +42,31 @@ export default function App() {
         />
       </Tab.Navigator>
     </NavigationContainer>
+=======
+import { StatusBar } from 'expo-status-bar';
+import { StyleSheet, Text, View } from 'react-native';
+
+export default function App() {
+  return (
+    <View style={styles.container}>
+      <Text>Open up App.js to start working on your app!</Text>
+      <StatusBar style="auto" />
+    </View>
+>>>>>>> parent of cd32da8... Added lab1
   );
 }
 
 const styles = StyleSheet.create({
+<<<<<<< HEAD
   img: {
     height: 30,
     width: 30,
+=======
+  container: {
+    flex: 1,
+    backgroundColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+>>>>>>> parent of cd32da8... Added lab1
   },
 });
